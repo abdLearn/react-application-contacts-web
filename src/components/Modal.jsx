@@ -32,6 +32,16 @@ const Overlay = styled.div`
   align-items: center;
   justify-content: center;
   padding: 40px;
+
+  @media screen and (max-width: 376px){
+    padding: 0;
+  }
+  @media screen and (max-width: 769px){
+    padding: 0;
+  }
+  @media screen and (max-width: 920px){
+    padding: 0;
+  }
 `;
 
 const ModalContainer = styled.div`
@@ -42,6 +52,16 @@ const ModalContainer = styled.div`
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px;
+
+  @media screen and (max-width: 376px){
+    margin: 0 10px;
+  }
+  @media screen and (max-width: 769px){
+    margin: 0 10px;
+  }
+  @media screen and (max-width: 920px){
+    margin: 0 10px;
+  }
 `;
 
 const ModalHeader = styled.div`

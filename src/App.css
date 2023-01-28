@@ -161,3 +161,75 @@ span.item{
   cursor: pointer;
   transition: 1s;
 }
+
+/*Screen */
+
+@media screen and (max-width: 376px){
+  .container-contact{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .list-card{
+    display: flex;
+    flex-direction: column;
+  }
+  .form-submit{
+    width: -webkit-fill-available;
+  }
+  .image{
+    width: 30%;
+  }
+  .list-card .card{
+    height: auto;
+    padding: 10px;
+  }
+  .item button{
+    margin: 2px 0;
+  }
+}
+
+@media screen and (max-width: 769px){
+  .container-contact{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .list-card{
+    /*display: flex;
+    flex-direction: column;*/
+    grid-template-columns: repeat(2, 45%);
+  }
+  .form-submit{
+    width: -webkit-fill-available;
+  }
+  .image{
+    width: 30%;
+  }
+  .list-card .card{
+    height: auto;
+    padding: 10px;
+  }
+  .item button{
+    margin: 2px 0;
+  }
+}
+
+@media screen and (max-width: 920px){
+  .list-card{
+    /*display: flex;
+    flex-direction: column;*/
+    grid-template-columns: repeat(2, 45%);
+  }
+  .form-submit{
+    width: -webkit-fill-available;
+  }
+  .image{
+    width: 30%;
+  }
+  .list-card .card{
+    height: auto;
+    padding: 10px;
+  }
+  .item button{
+    margin: 2px 0;
+  }
+}
